@@ -1,0 +1,30 @@
+변수
+-변경 가능한 변수 var(variable, 변수)
+-변경 불가능한 변수 val(value, 값)
+
+선언 방법
+val/var 이름 (네이밍: 제일 중요! 나중에봐도 뭐했는지 알아보기 쉽게 지을 것)
+ex. val SCHOOL
+    var school
+
+할당 방법
+val/var 이름 = 값
+ex. school = "대한민국 학교"
+    val/var school = "대한민국 학교" -> 선언, 할당을 동시에 하는 방법
+
+암묵적 규칙
+val 선언할 때는 대문자로. 문법!! 안 지키면 작동 안 됨.
+val SCHOOL = "대한민국 학교" (변하지 않는 것)
+
+var 선언할 때는 소문자로.
+var phoneNumber = "010-1111-1111"
+
+camel case
+ex. phoneNumber
+
+snake case
+ex. phone_number
+
+val PHONE_NUMBER = "010-1111-1111"
+
+코딩 컨벤션
